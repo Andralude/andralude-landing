@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a href="public/assets/logo.svg">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/assets/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Andralude Landing</h3>
@@ -12,5 +12,4 @@
 </div>
 
 ## About The Project
-
-[![Andralude website][product-screenshot]](screenshot.png)
+<img src="screenshot.png"/>
