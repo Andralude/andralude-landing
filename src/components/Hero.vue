@@ -3,21 +3,34 @@
     <div class="pt-24">
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
-        <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
+        <div class="flex flex-col w-full md:w-2/5 justify-center items-center text-center md:text-left">
           <h1 class="my-4 text-4xl font-bold leading-tight text-center">
             Les activités ludiques qui enchantent vos événements
           </h1>
-          <div class="mx-auto flex gap-8">
-            <button
-              class="hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-110 duration-300 ease-in-out"
-              :onClick="scrollToActivities">
-              Nos activités
-            </button>
-            <button
-              class="hover:underline border-white border-2 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-110 duration-300 ease-in-out"
-              :onClick="openCatalogue">
-              Catalogue
-            </button>
+          <div class="flex flex-col ">
+            <div class="mx-auto flex gap-8">
+              <button
+                class="hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-110 duration-300 ease-in-out"
+                :onClick="scrollToActivities">
+                Nos activités
+              </button>
+              <a
+                class="hover:underline border-white border-2 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-110 duration-300 ease-in-out"
+                href="/assets/medias/catalogue.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                Catalogue
+            </a>
+          </div>
+          <a
+            class="hover:underline border-white border-2 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-110 duration-300 ease-in-out text-center"
+            href="https://train-annot.spacegamers.fr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            Inscrition au train pour Annot
+        </a>
           </div>
         </div>
         <!--Right Col-->
@@ -62,9 +75,6 @@ export default {
         activities.scrollIntoView({ behavior: "smooth" });
       }
     },
-    openCatalogue() {
-      window.open("https://www.andralude.com/media/CatalogueAndralude2020.pdf", "_blank");
-    }
   }
 };
 </script>

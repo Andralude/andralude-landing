@@ -12,7 +12,7 @@
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t" />
       </div>
       <div class="grid lg:grid-cols-3 gap-x-8 gap-y-4 lg:mx-20">
-        <Tile title="Secret Friend" msg="L'application pour remettre l'humain au centre de votre entreprise" icon="/assets/tiles/secretfriend.svg" />
+        <Tile title="Secret Friend" msg="L'application pour remettre l'humain au centre de votre entreprise" icon="/assets/tiles/secretfriend.svg" link="https://secretfriend.fr" />
         <Tile title="Improvisation" msg="Théâtre d'improvisation, catch d'improvisation" icon="/assets/tiles/improvisation.svg" />
         <Tile title="Cinéma interactif" msg="Des films dont vous êtes le heros" icon="/assets/tiles/cinema.svg" />
         <Tile title="Escape Game" msg="Le jeu d'évasion dans la vraie vie" icon="/assets/tiles/escapegame.svg" />

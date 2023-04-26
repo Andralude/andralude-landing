@@ -16,9 +16,12 @@
       </div>
       <div class="w-full lg:w-8/12 lg:pt-8 mx-auto">
         <div id="people" class="grid sm:grid-cols-3 grid-cols-1 lg:gap-4 shadow-lg rounded-md">
-          <Person name="Éric" role="Game Designer" src="/assets/avatars/neutre.png"/>
+          <Person name="Éric" role="President" src="/assets/avatars/eric.jpg"/>
           <Person name="Axel" role="Developper" src="/assets/avatars/alopez.png" />
-          <Person name="Dominique" role="Sales Manager" src="/assets/avatars/neutre.png"/>
+          <Person name="Dominique" role="Sales Manager" src="/assets/avatars/dominique.jpeg"/>
+          <Person name="Richard" role="Game Designer" src="/assets/avatars/richard.jpeg"/>
+          <Person name="Nada" role="Wellness Coach" src="/assets/avatars/neutre.png"/>
+          <Person name="Christelle" role="Associate" src="/assets/avatars/christelle.jpeg"/>
         </div>
       </div>
     </div>
