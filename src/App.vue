@@ -8,6 +8,14 @@
   import Footer from './components/Footer.vue';
 </script>
 
+<script lang="ts">
+const url = new URL(window.location.href); 
+const pathname = url.pathname;
+if (pathname === '/train-annot') {
+  window.location.href = 'https://train-annot.spacegamers.fr';
+}
+</script>
+
 <template>
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
     <Header />
