@@ -17,11 +17,11 @@
           <li class="mr-3">
             <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#">link</a>
-          </li>
-          <li class="mr-3">
-            <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-              href="#">link</a>
           </li> -->
+          <li class="mr-3">
+            <a class="inline-block text-black underline hover:text-gray-800 py-2 px-4"
+              href="https://train-annot.spacegamers.fr/">Train pour Annot</a>
+          </li>
         </ul>
         <button id="navAction"
           class="lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-2xl mt-4 lg:mt-0 py-2 px-4 mx-4 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" href="#contact" :onClick="scrollToContact">
