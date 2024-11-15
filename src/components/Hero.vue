@@ -25,7 +25,7 @@
           </div>
           <!-- <a
             class="hover:underline border-white border-2 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-110 duration-300 ease-in-out text-center"
-            href="https://train-annot.spacegamers.fr/"
+            href="https://train-annot.andralude.com/"
             target="_blank"
             rel="noopener noreferrer"
             >

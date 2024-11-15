@@ -12,7 +12,7 @@
 const url = new URL(window.location.href); 
 const pathname = url.pathname;
 if (pathname === '/train-annot') {
-  window.location.href = 'https://train-annot.spacegamers.fr';
+  window.location.href = 'https://train-annot.andralude.com';
 }
 </script>
 

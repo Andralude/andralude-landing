@@ -20,7 +20,7 @@
           </li> -->
           <li class="mr-3">
             <a class="inline-block text-black underline hover:text-gray-800 py-2 px-4"
-              href="https://train-annot.spacegamers.fr/">Train pour Annot</a>
+              href="https://train-annot.andralude.com/">Train pour Annot</a>
           </li>
         </ul>
         <button id="navAction"
