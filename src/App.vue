@@ -14,6 +14,9 @@ const pathname = url.pathname;
 if (pathname === '/train-annot') {
   window.location.href = 'https://train-annot.andralude.com';
 }
+if (pathname === '/cine-folie') {
+  window.location.href = 'https://www.billetweb.fr/soiree-cine-folie';
+}
 </script>
 
 <template>
